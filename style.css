@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navigation .logo{
+    border: 1px solid lightcoral;
+    border-radius: 10vh;
+    padding: 5px;
+}
+
+.navigation .portfolio-button
+{
+    border: 1px solid lightcoral;
+    border-radius: 10vh;
+    padding: 5px;
+}
+
+.navigation .blog-button
+{
+    border: 1px solid lightcoral;
+    border-radius: 10vh;
+    padding: 5px;
+}
+
+.navigation a,a:visited{
+    color: lightcoral;
+}
+
+.navigation a:hover{
+    color: black;
+}
