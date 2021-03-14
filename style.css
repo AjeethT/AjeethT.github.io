@@ -46,3 +46,19 @@ a{
 .navigation a:hover{
     color: black;
 }
+
+
+.main-content .image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.main-content .description{
+    width: 500px;
+    height: 200px;
+}
+
+.main-content .description p{
+    text-align: justify;
+}
